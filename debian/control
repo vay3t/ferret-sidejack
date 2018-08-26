@@ -1,0 +1,19 @@
+Source: ferret-sidejack
+Section: net
+Priority: extra
+Maintainer: dookie <dookie@kali.org>
+Build-Depends: debhelper (>= 8.0.0), libpcap-dev
+Standards-Version: 3.9.3
+Homepage: https://code.google.com/p/ferret/
+Vcs-Git: ssh://git@git.kali.org/packages/ferret-sidejack.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/ferret-sidejack.git;a=summary
+
+Package: ferret-sidejack
+Architecture: i386 armel armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcap0.8
+Conflicts: ferret
+Description: Monitors data and extracts interesting data
+ This tool extracts interesting bits from network traffic. 
+ One use is to feed the "hamster" tool. Another use is to 
+ dump the output intoa text file, then use indexers and grep 
+ programs to analyze it.

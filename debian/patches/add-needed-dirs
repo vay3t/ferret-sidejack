@@ -1,0 +1,10 @@
+Added the bin and tmp directories
+that the Makefile needs.
+--- /dev/null
++++ b/bin/readme.txt
+@@ -0,0 +1 @@
++Directed is needed by Makefile
+--- /dev/null
++++ b/tmp/readme.txt
+@@ -0,0 +1 @@
++Directory is needed by Makefile

@@ -1,0 +1,42 @@
+ferret-sidejack (3.0.1-1kali7) kali; urgency=low
+
+  * Removed amd64 from available architectures (Closes: 0000289)
+
+ -- Devon Kearns <dookie@kali.org>  Thu, 03 Oct 2013 14:10:15 -0600
+
+ferret-sidejack (3.0.1-1kali6) kali; urgency=low
+
+  * Revision bump to force rebuild
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 27 Mar 2013 07:49:43 -0600
+
+ferret-sidejack (3.0.1-1kali5) kali; urgency=low
+
+  * Changed install to fix bug 184
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 27 Mar 2013 07:31:46 -0600
+
+ferret-sidejack (3.0.1-1kali4) kali; urgency=low
+
+  * Edited rules to use ferret-sidejack as the binary name in lieu of
+    ferret
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 11 Feb 2013 14:50:04 -0700
+
+ferret-sidejack (3.0.1-1kali3) kali; urgency=low
+
+  * Remove desktop file
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 08:11:35 -0500
+
+ferret-sidejack (3.0.1-1kali2) kali; urgency=low
+
+  * Revision bump due to server crash
+
+ -- dookie <dookie@kali.org>  Mon, 26 Nov 2012 16:27:52 -0700
+
+ferret-sidejack (3.0.1-1kali1) kali; urgency=low
+
+  * Initial release 
+
+ -- dookie <dookie@kali.org>  Mon, 26 Nov 2012 14:10:40 -0700
